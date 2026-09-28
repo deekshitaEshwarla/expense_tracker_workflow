@@ -1,5 +1,8 @@
+from db import init_db
+
 def main():
     print("Welcome")
+    init_db()
     while True:
         try:
             text = input("> ").strip()
